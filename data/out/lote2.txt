@@ -1,0 +1,4 @@
+Quantidade clientes 2
+Quantidade vendedores 2
+Venda mais cara 6
+Pior vendedor (Soma de vendas) Marcelino

@@ -1,4 +1,4 @@
-package test.sales.model;
+package sales.model;
 
 public class Customer {
 	

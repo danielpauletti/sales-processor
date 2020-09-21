@@ -1,6 +1,7 @@
-package test.sales.model;
+package sales.model;
 
 import java.math.BigDecimal;
+import java.math.RoundingMode;
 
 public class Salesman {
 	
@@ -14,7 +15,7 @@ public class Salesman {
 		this.identifier = identifier;
 		this.cpf = cpf;
 		this.name = name;
-		this.salary = salary;
+		this.salary = salary.setScale(2, RoundingMode.HALF_EVEN);
 	}
 
 	public String getIdentifier() {
